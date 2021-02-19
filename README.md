@@ -1,3 +1,15 @@
+Created using
+```
+create-react-app react-hooks-dogs-101 --template cra-template-typescript
+```
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
