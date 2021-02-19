@@ -1,11 +1,15 @@
+import { Dog } from './Dogs/Dog';
 import { Dogs } from './Dogs/Dogs';
-import { QueryProvider } from './QueryProvider';
+import { DogAppProvider } from './state';
 
 export function App() {
   return (
-    <QueryProvider>
-      <h1>Dogs</h1>
-      <Dogs />
-    </QueryProvider>
+    <>
+      <DogAppProvider>
+        <h1>Dogs</h1>
+        <Dogs />
+        <Dog />
+      </DogAppProvider>
+    </>
   );
 }
