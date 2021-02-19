@@ -1,7 +1,11 @@
+import { Dogs } from './Dogs/Dogs';
+import { QueryProvider } from './QueryProvider';
+
 export function App() {
   return (
-    <div>
+    <QueryProvider>
       <h1>Dogs</h1>
-    </div>
+      <Dogs />
+    </QueryProvider>
   );
 }
